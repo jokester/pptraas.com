@@ -17,4 +17,4 @@ USER pptruser
 
 EXPOSE 8080
 ENTRYPOINT ["dumb-init", "--"]
-CMD ["npm", "run", "start"]
+CMD yarn && yarn start
